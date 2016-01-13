@@ -39,7 +39,7 @@ var AndroidXMLParser = require('rnandroidxmlparser');
 var xmlResponse = "<?xml version=\"1.0\"?><!-- This is a comment --><address><name>Lars </name><street> Test </street><telephone number= \"0123\"/></address>";
 
 AndroidXMLParser.parse(xmlResponse, (response) => {
-    // Will return [Lars ,  Test ,  Test ,  Test ]
+    // Will return [Lars , Test ]
       console.log("XML response: " + response);
     });
 ```
