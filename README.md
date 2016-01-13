@@ -43,3 +43,9 @@ AndroidXMLParser.parse(xmlResponse, (response) => {
       console.log("XML response: " + response);
     });
 ```
+
+### Updates/Changes
+Please submit any pull requests to the development branch
+
+### License
+MIT
