@@ -1,0 +1,24 @@
+{
+  "name": "rnandroidxmlparser",
+  "version": "0.1.1",
+  "description": "React Native Android module for parsing XML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "uhm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lawgimenez/rnandroidxmlparser.git"
+  },
+  "keywords": [
+    "android",
+    "xml-parsing",
+    "react-native"
+  ],
+  "author": "Lawrence Gimenez <lawgimenez@gmail.com> (lawgimenez.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lawgimenez/rnandroidxmlparser/issues"
+  },
+  "homepage": "https://github.com/lawgimenez/rnandroidxmlparser#readme"
+}
