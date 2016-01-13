@@ -56,21 +56,19 @@ public class XMLParserModule extends ReactContextBaseJavaModule {
 
             while(eventType != XmlPullParser.END_DOCUMENT) {
                 if(eventType == XmlPullParser.START_DOCUMENT) {
-                    Log.i(TAG, "Start Doc: " + xmlParser.getText());
+                    Log.i(TAG, "Start Doc");
 
                 } else if(eventType == XmlPullParser.START_TAG) {
-                    Log.i(TAG, "Start Tag: " + xmlParser.getText());
+                    Log.i(TAG, "Start Tag");
 
                 } else if(eventType == XmlPullParser.END_TAG) {
-
                     Log.i(TAG, "End Tag");
-
-                    mListXmlTexts.add(mText);
 
                 } else if(eventType == XmlPullParser.TEXT) {
                     Log.i(TAG, "Text: " + xmlParser.getText());
 
                     mText = xmlParser.getText();
+                    mListXmlTexts.add(mText);
                 }
 
                 eventType = xmlParser.next();
